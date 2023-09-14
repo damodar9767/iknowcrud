@@ -6,7 +6,7 @@ import React from 'react'
 const getFeedbyID = async (id) => {
 
   try {
-    const res = await fetch(`https://iknowcrud-git-main-damodar9767.vercel.app/api/feeds/${id}`,{cache: "no-store"})
+    const res = await fetch(`https://iknowcrud.vercel.app/api/feeds/${id}`,{cache: "no-store"})
 
     if (!res.ok){
       throw new Error("Failed to get the feed to be edited " )

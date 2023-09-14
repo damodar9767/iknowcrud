@@ -11,7 +11,7 @@ import Link from 'next/link'
 
 const getFedd = async () =>{
   try {
-    const res = await fetch('https://iknowcrud-git-main-damodar9767.vercel.app/api/feeds',{
+    const res = await fetch('https://iknowcrud.vercel.app/api/feeds',{
       cache:'no-store',
 
     })
